@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KoHo', sans-serif;
+    color: black;
+}
+
+.blocrelatif p{
+    margin: 5%;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+h2{
+    margin-inline-start: 34px;
+    margin-block-start: 10px;
+    padding-top: 8%;
+}
+.icon{
+    width: 30px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+.blocrelatif p{
+    padding-top: 8%;
+}
+.jeux2 img{
+    width: 100px;
+}
+.jeux1 img{
+    max-width: 100px;
+}
+.jeux2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+    padding-top: 15%;
+}
+.jeux1{
+    padding-inline-start: 35%;
+}
+.sudoku p{
+    width: 120px;
+}
+.eau p{
+    width: 120px;
+}
+.calcul p{
+    width: 120px;
+}
+.sudoku h3{
+    display: flex;
+    justify-content: center;
+}
+.eau h3{
+    display: flex;
+    justify-content: center;
+}
+.calcul h3{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.sudoku img{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.eau img{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.calcul img{
+    border: 5px solid black;
+    border-radius: 50%;
+}

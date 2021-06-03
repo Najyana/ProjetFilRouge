@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/fondeau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KoHo', sans-serif;
+    color: black;
+}
+.logo{
+    float: right;
+    width: 55px;
+    padding-top: 17px;
+    padding-right: 17px;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+h2{
+    margin-inline-start: 10%;
+    padding-top: 6%;
+}
+.consignes{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.consignes p{
+    font-size: 105%;
+}
+.schema{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.schema img{
+    z-index: 1;
+}
+.valider a{
+    display: block;
+	color: black;
+	background: #188514;
+	padding: 1em;
+	border-radius: 45px;
+	text-decoration: none;
+	max-width: 40%;
+	text-align: center;
+}
+.valider{
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+.etiquettes1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.etiquettes2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.evaporation{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 0.5em;
+    max-width: 30%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.ruissellement{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 0.5em;
+    max-width: 35%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.condensation{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 0.5em;
+    max-width: 35%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.precipitations{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 0.5em;
+    max-width: 35%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}

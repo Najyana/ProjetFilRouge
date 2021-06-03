@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KoHo', sans-serif;
+    color: black;
+}
+.avatar img{
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 35%;
+    border: 5px solid rgb(7, 7, 6);
+    border-radius: 50%;
+}
+.avatar h2{
+    text-align: center;
+}
+.pscore{
+    text-align: center;
+}
+.jeux img{
+    width: 100px;
+}
+.sudoku{
+    margin-left: 2rem;
+}
+.eau{
+    margin-left: 2rem;
+}
+.calcul{
+    margin-left: 2rem;
+}
+.logo{
+    float: right;
+    width: 55px;
+    padding-top: 17px;
+    padding-right: 17px;
+}
+.sudoku img{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.eau img{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.calcul img{
+    border: 3px solid black;
+    border-radius: 50%;
+}

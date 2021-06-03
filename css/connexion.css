@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KoHo', sans-serif;
+    color: black;
+}
+.inscription h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-top: 30%;
+}
+.logo{
+    float: right;
+    width: 55px;
+    padding-top: 17px;
+    padding-right: 17px;
+}
+.formulaireinscription{
+    display: flex;
+    justify-content: center;
+}
+
+.connexion h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-top: 20%;
+}
+.formulaireconexion{
+    display: flex;
+    justify-content: center;
+}
+.valider{
+    display: flex;
+    justify-content: center;
+}

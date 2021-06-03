@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/fondeau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KoHo', sans-serif;
+    color: black;
+}
+.logo{
+    float: right;
+    width: 55px;
+    padding-top: 17px;
+    padding-right: 17px;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+h2{
+    margin-inline-start: 10%;
+    padding-top: 6%;
+}
+.consignes{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.consignes p{
+    font-size: 105%;
+}
+.schema{
+    margin-top: 20%;
+}
+.valider a{
+    display: block;
+	color: black;
+	background: #188514;
+	padding: 1em;
+	border-radius: 45px;
+	text-decoration: none;
+	max-width: 40%;
+	text-align: center;
+}
+.valider{
+    margin-top: 30%;
+    margin-left: 35%;
+}
