@@ -37,7 +37,9 @@ h2{
     font-size: 105%;
 }
 .schema{
+    background-image: url(../img/schema_a_completer.png);
     margin-top: 20%;
+    margin-bottom: 20%;
 }
 .valider a{
     display: block;
