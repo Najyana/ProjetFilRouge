@@ -35,8 +35,53 @@ h2{
     font-size: 105%;
 }
 .tableau{
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-top: 20%;
     margin-bottom: 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 133, 179);
+}
+.solide{
+    border: 2px solid black;
+    border-radius: 15%;
+    width: 32%;
+    text-align: center;
+}
+.blocsolide{
+    width: 90%;
+    height: 25px;
+    background: white;
+    margin-top: 20%;
+    display: inline-block;
+}
+.liquide{
+    border: 2px solid black;
+    border-radius: 15%;
+    width: 32%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.blocliquide{
+    width: 90%;
+    height: 25px;
+    background: white;
+    margin-top: 20%;
+    display: inline-block;
+}
+.gazeux{
+    border: 2px solid black;
+    border-radius: 15%;
+    width: 32%;
+    text-align: center;
+}
+.blocgazeux{
+    width: 90%;
+    height: 25px;
+    background: white;
+    margin-top: 20%;
+    display: inline-block;
 }
 .etiquettes1{
     display: flex;
@@ -131,6 +176,6 @@ h2{
 	text-align: center;
 }
 .valider{
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 35%;
 }
