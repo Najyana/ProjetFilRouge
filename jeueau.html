@@ -24,52 +24,55 @@
     <div class="tableau">
         <div class="solide">
             <h2>Solide</h2>
-            <div class="blocsolide"></div>
-            <div class="blocsolide"></div>
-            <div class="blocsolide"></div>
+            <div class="blocsolide" ondrop="drop(event)" ondragover="allowDrops(event)"></div>
+            <div class="blocsolide" ondrop="drop(event)" ondragover="allowDrops(event)"></div>
+            <div class="blocsolide" ondrop="drop(event)" ondragover="allowDrops(event)"></div>
         </div>
         <div class="liquide">
             <h2>Liquide</h2>
-            <div class="blocliquide"></div>
-            <div class="blocliquide"></div>
-            <div class="blocliquide"></div>
-            <div class="blocliquide"></div>
+            <div class="blocliquide" ondrop="drop(event)" ondragover="allowDropl(event)"></div>
+            <div class="blocliquide" ondrop="drop(event)" ondragover="allowDropl(event)"></div>
+            <div class="blocliquide" ondrop="drop(event)" ondragover="allowDropl(event)"></div>
+            <div class="blocliquide" ondrop="drop(event)" ondragover="allowDropl(event)"></div>
         </div>
         <div class="gazeux">
             <h2>Gazeux</h2>
-            <div class="blocgazeux"></div>
+            <div class="blocgazeux" ondrop="drop(event)" ondragover="allowDropg(event)"></div>
         </div>
     </div>
     <div class="etiquettes1">
-        <div class="grele">
-            <h3>Grêle</h3>
+        <div class="grele dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets1">Grêle</h3>
         </div>
-        <div class="pluie">
-            <h3>Pluie</h3>
+        <div class="pluie dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl1">Pluie</h3>
         </div>
-        <div class="rosee">
-            <h3>Rosée</h3>
+        <div class="rosee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl2">Rosée</h3>
         </div>
-        <div class="glace">
-            <h3>Glace</h3>
+        <div class="glace dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets2">Glace</h3>
         </div>
     </div>
     <div class="etiquettes2">
-        <div class="buee">
-            <h3>Buée</h3>
+        <div class="buee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl3">Buée</h3>
         </div>
-        <div class="vapeur">
-            <h3>Vapeur</h3>
+        <div class="vapeur droping" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetg1">Vapeur</h3>
         </div>
-        <div class="lac">
-            <h3>Lac</h3>
+        <div class="lac dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl4">Lac</h3>
         </div>
-        <div class="neige">
-            <h3>Neige</h3>
+        <div class="neige dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets3">Neige</h3>
         </div>
     </div>
     <div class="valider">
         <a href="#"><strong>Valider</strong></a>
     </div>
+
+
+    <script type="text/javascript" src="js/jeueau.js"></script>
 </body>
 </html>
