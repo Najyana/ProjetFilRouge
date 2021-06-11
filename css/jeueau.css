@@ -179,3 +179,16 @@ h2{
     margin-top: 10%;
     margin-left: 35%;
 }
+.case{
+    background-color: black;
+    color: white;
+}
+
+
+
+.red{
+    border: 2px solid red;
+}
+.green{
+    border: 2px solid green;
+}
