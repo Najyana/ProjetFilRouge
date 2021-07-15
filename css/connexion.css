@@ -8,7 +8,9 @@ img{
 }
 
 body{
-    height: 100vh;
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/fond.jpg);
     background-size: cover;
     background-repeat: no-repeat;

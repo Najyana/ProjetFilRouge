@@ -18,29 +18,45 @@
     </div>
     <br><br>
     <div class="consignes">
-        <p><strong>Replace les étiquettes au bon endroit sur le schéma avec ce que tu as vue avant.</strong></p>
-    </div>
+        <p><strong>Replace les étiquettes au bon endroit sur le schéma avec ce que tu as vue avant. Une fois que tu as placer toutes les étiquettes au bon endroit et que toutes les cases sont entourée en vert, valide en cliquant sur le boutton vert.</strong></p><br>
+    </div>  
     <div class="schema">
-        <img src="img/schema_a_completer.png" alt="">
+        <div class="block1">
+            <div class="inv"></div>
+            <div id="divc" class="blockcondensation" ondrop="dropc(event)" ondragover="allowDropc(event)"></div>
+        </div>
+        <div class="block2">
+            <div id="divp" class="blockprecipitations" ondrop="dropp(event)" ondragover="allowDropp(event)"></div>
+            <div class="inv"></div>
+        </div>
+        <div class="block3">
+            <div class="inv"></div>
+            <div id="dive" class="blockevaporation" ondrop="drope(event)" ondragover="allowDrope(event)"></div>
+        </div>
+        <div class="block4">
+            <div id="divr" class="blockruissellement" ondrop="dropr(event)" ondragover="allowDropr(event)"></div>
+        </div>
     </div>
     <div class="etiquettes1">
-        <div class="evaporation">
-            <h3>Evaporation</h3>
+        <div class="evaporation" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 id="dragevap" ondragstart="dragStart(event)" draggable="true" data-dive="dive">Evaporation</h3>
         </div>
-        <div class="ruissellement">
-            <h3>Ruissellement</h3>
+        <div class="ruissellement" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 id="dragruiss" ondragstart="dragStart(event)" draggable="true" data-divr="divr">Ruissellement</h3>
         </div>
     </div>
     <div class="etiquettes2">
-        <div class="condensation">
-            <h3>Condensation</h3>
+        <div class="condensation" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 id="dragcond" ondragstart="dragStart(event)" draggable="true" data-divc="divc">Condensation</h3>
         </div>
-        <div class="precipitations">
-            <h3>Précipitations</h3>
+        <div class="precipitations" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3 id="dragprec" ondragstart="dragStart(event)" draggable="true" data-divp="divp">Précipitations</h3>
         </div>
     </div>
     <div class="valider">
-        <a href="#"><strong>Valider</strong></a>
+        <button><strong>Valider</strong></button>
     </div>
+
+    <script type="text/javascript" src="js/jeucycle.js"></script>
 </body>
 </html>

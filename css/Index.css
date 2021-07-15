@@ -9,9 +9,11 @@ img{
 
 
 body{
-    height: 100vh;
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/fond.jpg);
-    background-size: cover;
+    background-size: cover ;
     background-repeat: no-repeat;
     font-family: 'KoHo', sans-serif;
     color: black;
@@ -24,6 +26,14 @@ body{
     display:flex;
     justify-content: space-around;
 }
+.ins{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
 h2{
     margin-inline-start: 34px;
     margin-block-start: 10px;
@@ -34,6 +44,9 @@ h2{
     padding-top: 45px;
     display: flex;
     justify-content: flex-end;
+}
+p{
+    text-align: center;
 }
 .blocrelatif p{
     padding-top: 8%;
@@ -87,4 +100,31 @@ h2{
 .calcul img{
     border: 5px solid black;
     border-radius: 50%;
+}
+.formulaireinscription{
+    display: flex;
+    justify-content: center;
+    
+}
+.valider{
+    width: 80px;
+    background-color: rgba(207, 196, 196, 0.767);
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+.jouer a{
+    display: block;
+	color: white;
+	background: rgb(24, 83, 131);
+	padding: 1em;
+	border-radius: 45px;
+	text-decoration: none;
+	max-width: 40%;
+	text-align: center;
+}
+.jouer{
+    margin-top: 20%;
+    margin-left: 35%;
 }

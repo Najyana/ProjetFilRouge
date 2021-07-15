@@ -8,7 +8,9 @@ img{
 }
 
 body{
-    height: 100vh;
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/fond.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +24,7 @@ body{
     border: 5px solid rgb(7, 7, 6);
     border-radius: 50%;
 }
-.avatar h2{
+.prenom{
     text-align: center;
 }
 .pscore{
@@ -35,7 +37,12 @@ body{
     margin-left: 2rem;
 }
 .eau{
-    margin-left: 2rem;
+    text-align: center;
+    background-color: rgb(62, 103, 141);
+    color: white;
+}
+.eau h2{
+    color: rgb(223, 84, 142);
 }
 .calcul{
     margin-left: 2rem;
@@ -57,4 +64,19 @@ body{
 .calcul img{
     border: 3px solid black;
     border-radius: 50%;
+}
+.jouer a{
+    display: block;
+	color: white;
+	background: rgb(24, 83, 131);
+	padding: 1em;
+	border-radius: 45px;
+	text-decoration: none;
+	max-width: 40%;
+	text-align: center;
+}
+.jouer{
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-bottom: 5%;
 }

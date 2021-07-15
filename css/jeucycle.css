@@ -7,7 +7,10 @@ img{
     width: 100%;
 }
 body{
-    height: 100vh;
+    width: 448px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/fondeau.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,13 +40,60 @@ h2{
     font-size: 105%;
 }
 .schema{
+    background-image: url(../img/schema_a_completer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40%;
     margin-top: 20%;
-    margin-bottom: 20%;
 }
-.schema img{
-    z-index: 1;
+.block1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
-.valider a{
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+}
+.block4{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.blockprecipitations{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    height: 25px;
+}
+.blockcondensation{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    height: 25px;
+}
+.blockevaporation{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    height: 25px;
+}
+.inv{
+    width: 60px;
+    height: 25px;
+}
+.blockruissellement{
+    border: 2px solid black;
+    background-color: white;
+    width: 20%;
+    height: 25px;
+}
+.valider button{
     display: block;
 	color: black;
 	background: #188514;
@@ -56,6 +106,7 @@ h2{
 .valider{
     margin-top: 20%;
     margin-left: 35%;
+    padding-bottom: 5%;
 }
 
 .etiquettes1{
@@ -103,4 +154,10 @@ h2{
     display: block;
     border-radius: 10px;
     margin-bottom: 5%;
+}
+.red{
+    border: 2px solid red;
+}
+.green{
+    border: 2px solid green;
 }
