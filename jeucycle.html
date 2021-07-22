@@ -13,7 +13,7 @@
     <div class="header">
         <h2>Le cycle de l'eau</h2>
         <div class="logo">
-            <a href="index.html"><img src="img/home-solid.svg" alt=""></a>
+            <a href="compte.html"><img src="img/home-solid.svg" alt=""></a>
         </div>
     </div>
     <br><br>
@@ -23,38 +23,38 @@
     <div class="schema">
         <div class="block1">
             <div class="inv"></div>
-            <div id="divc" class="blockcondensation" ondrop="dropc(event)" ondragover="allowDropc(event)"></div>
+            <div id="div1" class="blockcondensation" ondrop="dropc(event)" ondragover="allowDropc(event)"></div>
         </div>
         <div class="block2">
-            <div id="divp" class="blockprecipitations" ondrop="dropp(event)" ondragover="allowDropp(event)"></div>
+            <div id="div2" class="blockprecipitations" ondrop="dropp(event)" ondragover="allowDropp(event)"></div>
             <div class="inv"></div>
         </div>
         <div class="block3">
             <div class="inv"></div>
-            <div id="dive" class="blockevaporation" ondrop="drope(event)" ondragover="allowDrope(event)"></div>
+            <div id="div3" class="blockevaporation" ondrop="drope(event)" ondragover="allowDrope(event)"></div>
         </div>
         <div class="block4">
-            <div id="divr" class="blockruissellement" ondrop="dropr(event)" ondragover="allowDropr(event)"></div>
+            <div id="div4" class="blockruissellement" ondrop="dropr(event)" ondragover="allowDropr(event)"></div>
         </div>
     </div>
     <div class="etiquettes1">
         <div class="evaporation" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 id="dragevap" ondragstart="dragStart(event)" draggable="true" data-dive="dive">Evaporation</h3>
+            <h3 id="dragevap" ondragstart="dragStart(event)" draggable="true" data-div3="div3">Evaporation</h3>
         </div>
         <div class="ruissellement" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 id="dragruiss" ondragstart="dragStart(event)" draggable="true" data-divr="divr">Ruissellement</h3>
+            <h3 id="dragruiss" ondragstart="dragStart(event)" draggable="true" data-div4="div4">Ruissellement</h3>
         </div>
     </div>
     <div class="etiquettes2">
         <div class="condensation" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 id="dragcond" ondragstart="dragStart(event)" draggable="true" data-divc="divc">Condensation</h3>
+            <h3 id="dragcond" ondragstart="dragStart(event)" draggable="true" data-div1="div1">Condensation</h3>
         </div>
         <div class="precipitations" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 id="dragprec" ondragstart="dragStart(event)" draggable="true" data-divp="divp">Précipitations</h3>
+            <h3 id="dragprec" ondragstart="dragStart(event)" draggable="true" data-div2="div2">Précipitations</h3>
         </div>
     </div>
     <div class="valider">
-        <button><strong>Valider</strong></button>
+        <button>Valider</button>
     </div>
 
     <script type="text/javascript" src="js/jeucycle.js"></script>

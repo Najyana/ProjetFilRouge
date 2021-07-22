@@ -14,7 +14,7 @@
     <div class="header">
         <h2>Les différents états de l'eau</h2>
         <div class="logo">
-            <a href="index.html"><img src="img/home-solid.svg" alt=""></a>
+            <a href="compte.html"><img src="img/home-solid.svg" alt=""></a>
         </div>
     </div>
     <br><br>
@@ -27,24 +27,24 @@
         <!-- Les solides -->
         <div class="solide">
             <h2>Solide</h2>
-            <div id="divs" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)"></div>
-            <div id="divs" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)"></div>
-            <div id="divs" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)"></div>
+            <div id="div1" name="target1" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)" data-targets="targets"></div>
+            <div id="div2" name="target2" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)" data-targets="targets"></div>
+            <div id="div3" name="target3" class="blocsolide" ondrop="drops(event)" ondragover="allowDrops(event)" data-targets="targets"></div>
         </div>
 
         <!-- Les liquides -->
         <div class="liquide">
             <h2>Liquide</h2>
-            <div id="divl" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)"></div>
-            <div id="divl" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)"></div>
-            <div id="divl" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)"></div>
-            <div id="divl" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)"></div>
+            <div id="div4" name="target4" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)" data-targetl="targetl"></div>
+            <div id="div5" name="target5" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)" data-targetl="targetl"></div>
+            <div id="div6" name="target6" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)" data-targetl="targetl"></div>
+            <div id="div7" name="target7" class="blocliquide" ondrop="dropl(event)" ondragover="allowDropl(event)" data-targetl="targetl"></div>
         </div>
 
         <!-- Les gazeux -->
         <div class="gazeux">
             <h2>Gazeux</h2>
-            <div id="divg" class="blocgazeux" ondrop="dropg(event)" ondragover="allowDropg(event)"></div>
+            <div id="div8" name="target8"class="blocgazeux" ondrop="dropg(event)" ondragover="allowDropg(event)" data-targetg="targetg"></div>
         </div>
     </div>
 
@@ -53,50 +53,50 @@
 
     <div class="etiquettes1">
         <!-- Grêle -->
-        <div class="grele dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets1" data-divs="divs">Grêle</h3>
+        <div class="grele dropins" ondrop="drop(event)" ondragover="allowDrop(event)" data-divs="divs" ondragstart="dragStart(event)" draggable="true" id="dragtargets1" >
+            <h3>Grêle</h3>
         </div>
 
         <!-- Pluie -->
-        <div class="pluie dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl1" data-divl="divl">Pluie</h3>
+        <div class="pluie dropinl" ondrop="drop(event)" ondragover="allowDrop(event)" data-divl="divl" ondragstart="dragStart(event)" draggable="true" id="dragtargetl1" >
+            <h3>Pluie</h3>
         </div>
 
         <!-- Rosée -->
-        <div class="rosee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl2" data-divl="divl">Rosée</h3>
+        <div class="rosee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)" data-divl="divl" ondragstart="dragStart(event)" draggable="true" id="dragtargetl2" >
+            <h3>Rosée</h3>
         </div>
 
         <!-- Glace -->
-        <div class="glace dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets2" data-divs="divs">Glace</h3>
+        <div class="glace dropins" ondrop="drop(event)" ondragover="allowDrop(event)" data-divs="divs" ondragstart="dragStart(event)" draggable="true" id="dragtargets2" >
+            <h3>Glace</h3>
         </div>
     </div>
 
     <div class="etiquettes2">
         <!-- Buée -->
-        <div class="buee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl3" data-divl="divl">Buée</h3>
+        <div class="buee dropinl" ondrop="drop(event)" ondragover="allowDrop(event)" data-divl="divl" ondragstart="dragStart(event)" draggable="true" id="dragtargetl3" >
+            <h3>Buée</h3>
         </div>
 
         <!-- Vapeur -->
-        <div class="vapeur droping" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetg1" data-divg="divg">Vapeur</h3>
+        <div class="vapeur droping" ondrop="drop(event)" ondragover="allowDrop(event)" data-divg="divg" ondragstart="dragStart(event)" draggable="true" id="dragtargetg1">
+            <h3>Vapeur</h3>
         </div>
 
         <!-- Lac -->
-        <div class="lac dropinl" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargetl4" data-divl="divl">Lac</h3>
+        <div class="lac dropinl" ondrop="drop(event)" ondragover="allowDrop(event)" data-divl="divl" ondragstart="dragStart(event)" draggable="true" id="dragtargetl4">
+            <h3>Lac</h3>
         </div>
 
         <!-- Neige -->
-        <div class="neige dropins" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <h3 ondragstart="dragStart(event)" draggable="true" id="dragtargets3" data-divs="divs">Neige</h3>
+        <div class="neige dropins" ondrop="drop(event)" ondragover="allowDrop(event)" data-divs="divs" ondragstart="dragStart(event)" draggable="true" id="dragtargets3" >
+            <h3>Neige</h3>
         </div>
     </div>
     
     <div class="valider">
-        <button><strong>Valider</strong></button>
+        <button><h3>Valider</h3></button>
     </div>
 
 
