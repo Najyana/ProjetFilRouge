@@ -14,7 +14,7 @@ body{
     background-image: url(../img/fondeau.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     color: black;
 }
 .logo{
@@ -157,7 +157,11 @@ h2{
 }
 .red{
     border: 2px solid red;
+    width: 160%;
+    background-color: white;
 }
 .green{
     border: 2px solid green;
+    width: 160%;
+    background-color: white;
 }

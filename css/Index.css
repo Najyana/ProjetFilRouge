@@ -15,7 +15,7 @@ body{
     background-image: url(../img/fond.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     color: black;
 }
 
@@ -35,6 +35,7 @@ body{
     padding-top: 2%;
 }
 h2{
+    font-family: 'Sigmar One', cursive;
     margin-inline-start: 34px;
     margin-block-start: 10px;
     padding-top: 8%;
